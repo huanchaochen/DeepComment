@@ -1,0 +1,1102 @@
+first prime fixture session entity not exist 
+session load simple 1 fail object not find found exception onfe be correct 
+todo remove initialization final variable set null make compiler happy 
+name 
+uuid 
+fetch profile 
+query cache 
+update timestamp cache 
+query cache 
+current session context 
+sql function registry 
+transaction environment 
+session factory option session factory option 
+property create property from map metadata get service registry get service configuration service get setting 
+get configure remote for check branch store in configuration key branch branch remote 
+config repo config repo get config 
+remote repo config get config constant config branch section branch name config constant config key remote 
+todo collection get collection type correct here? 
+hibernate type descriptor set type name collection get collection type 
+cascade map helper get value collection get cascade default get cascade 
+hibernate type descriptor set type name collection get collection type 
+get branch in remote repository store in configuration key branch branch merge 
+remote branch name repo config get config constant config branch section branch name config constant config key merge 
+todo cache cache reference? 
+be open illegal state exception entity manager factory be close 
+jpacache session factory 
+add jndi add hash map because jndi server use serialization 
+name log info not bind factory to jndi no jndi name configure log info factory name name context ctx name helper get initial context property name helper bind ctx name instance log info bind bound factory to jndi name name event context ctx add name listener name event context object scope listener invalid name exception ine log error invalid jndi name name ine name exception ne log warn could not bind factory to jndi ne cast exception cce log warn initial context do not implement event context 
+check property entity if own relation entity if value property change relation bi directional new revision for relate entity generate 
+property name names entity persister get property name names 
+i 0 i property name names length i property name property name names i relation description rel desc ver cfg get ent cfg get relation description entity name property name rel desc rel desc be bidirectional rel desc get relation type relation type to one check change object old value old state ? old state i object value state ? state i tool object equal old value value id mapper id mapper ver cfg get ent cfg get rel desc get to entity name get id mapper we have to generate change both in the old collection size decres decrese and collection size increase value serializable id serializable id mapper map to id from entity value ver sync add work unit collection change work unit rel desc get to entity name ver cfg id value old value serializable id serializable id mapper map to id from entity old value ver sync add work unit collection change work unit rel desc get to entity name ver cfg id old value 
+select new list ee from middle entity ee 
+query builder qb query builder version middle entity name ee 
+qb add from reference id data get version entity name e 
+qb add from index id data get version entity name f 
+qb add projection list ee e f 
+select new list ee from middle entity ee 
+query builder qb query builder version middle entity name ee 
+qb add from reference id data get version entity name e 
+qb add projection list ee e 
+generate id mapper data for reference side relation 
+middle id data reference id data middle id data main generator get ver ent cfg reference id map map by reference entity name 
+store id data reference entity original mapper prefix mapper entity 
+middle id data reference id data middle id data main generator get ver ent cfg reference id map reference prefix relate reference entity name 
+for reference side prefix mapper win thi collection isn persist in join table prefix value arbitrary 
+middle id data reference id data middle id data main generator get ver ent cfg reference id map reference entity name 
+handle filter apply class level 
+filter helper filter helper persistent get filter factory get dialect factory 
+temporary id table name persistent get temporary id table name 
+temporary id table ddl persistent get temporary id table ddl 
+test cascade save association key which refer save entity 
+session s open session 
+s begin transaction 
+customer cust customer acme inc 
+order order order order id cust 1 
+cust get order add order 
+s save cust 
+s flush 
+assert equal 2 session factory get statistic statistics get entity insert count 
+s delete cust 
+s get transaction commit 
+s close 
+test query simple sqlserver2012 optimizer hint 
+s get transaction begin 
+query query s create query from query hint test employee e where e department name department name add query hint maxdop 2 set parameter department name sale sales 
+list result query list 
+s get transaction commit 
+s clear 
+assert equal result size 2 
+assert query hint test sqlserver2012 dialect get process sql contain option maxdop 2 
+query hint test sqlserver2012 dialect reset process sql 
+test cascade save association key which refer save entity 
+session s open session 
+s begin transaction 
+customer cust customer acme inc 
+order order order cust 1 
+cust get order add order 
+s save cust 
+s flush 
+assert equal 2 session factory get statistic statistics get entity insert count 
+s delete cust 
+s get transaction commit 
+s close 
+ensure insertion logic handle comment append front 
+s get transaction begin 
+query s create query from query hint test employee e where e department name department name set comment be a test add query hint maxdop 2 set parameter department name sale sales 
+result query list 
+s get transaction commit 
+s clear 
+assert equal result size 2 
+assert query hint test sqlserver2012 dialect get process sql contain option maxdop 2 
+query hint test sqlserver2012 dialect reset process sql 
+next create table auxiliary object 
+auxiliary database object auxiliary database object database get auxiliary database object auxiliary database object applie apply to dialect dialect auxiliary database object before table on creation check export identifier auxiliary database object export identifier apply sql string strings target dialect get auxiliary database object exporter get sql create string strings auxiliary database object metadata 
+information read update calculate field fields 
+class audit data update calculate field fields 
+audit metadata generator audit meta gen audit metadata generator cfg global cfg ver ent cfg revision info relation map audit entity name register class audit data 
+note string deprecate 
+register function var arg sqlfunction hibernate 
+register function substr var arg sqlfunction hibernate substr 
+register function substr substre var arg sqlfunction hibernate substr substre 
+register function sysdate no arg sqlfunction sysdate hibernate timestamp 
+register function tan standard jdbcescape function tan hibernate 
+register function timestampadd standard jdbcescape function timestampadd hibernate 
+register function timestampdiff standard jdbcescape function timestampdiff hibernate 
+register function tochar var arg sqlfunction hibernate tochar 
+register function to var arg sqlfunction hibernate to 
+register function todate var arg sqlfunction hibernate todate 
+register function to date var arg sqlfunction hibernate todate 
+register function tonumber standard sqlfunction tonumber 
+register function to number standard sqlfunction tonumber 
+register function truncate standard jdbcescape function truncate hibernate 
+register function ucase standard jdbcescape function ucase hibernate 
+register function upper standard sqlfunction upper 
+rdm concat function support 2 parameter 
+register function concat sqlfunction template hibernate concat ?1 ?2 
+register function instr standard sqlfunction instr hibernate 
+register function lpad standard sqlfunction lpad hibernate 
+register function replace standard sqlfunction replace hibernate 
+register function rpad standard sqlfunction rpad hibernate 
+register function substr standard sqlfunction substr hibernate 
+register function lcase standard sqlfunction lcase 
+register function lower standard sqlfunction lower 
+register function ltrim standard sqlfunction ltrim 
+register function reverse standard sqlfunction reverse 
+register function rtrim standard sqlfunction rtrim 
+multi param numeric dialect function 
+register function atan2 standard sqlfunction atan2 hibernate 
+register function log standard sqlfunction log hibernate integer 
+register function mod standard sqlfunction mod hibernate integer 
+register function nvl standard sqlfunction nvl 
+register function nvl2 standard sqlfunction nvl2 
+register function power standard sqlfunction power hibernate 
+multi param string dialect function 
+register function concat var arg sqlfunction hibernate 
+register function instr standard sqlfunction instr hibernate integer 
+register function instrb standard sqlfunction instrb hibernate integer 
+register function lpad standard sqlfunction lpad hibernate 
+register function replace standard sqlfunction replace hibernate 
+register function rpad standard sqlfunction rpad hibernate 
+register function substr standard sqlfunction substr hibernate 
+register function substrb standard sqlfunction substrb hibernate 
+register function translate standard sqlfunction translate hibernate 
+register function substr substre standard sqlfunction substr hibernate 
+register function locate sqlfunction template hibernate integer instr ?2 ?1 
+register function bite length sqlfunction template hibernate integer vsize ?1 8 
+register function coalesce nvl function 
+multi param string dialect function 
+register function concat var arg sqlfunction hibernate 
+register function instr standard sqlfunction instr hibernate integer 
+register function instrb standard sqlfunction instrb hibernate integer 
+register function lpad standard sqlfunction lpad hibernate 
+register function replace standard sqlfunction replace hibernate 
+register function rpad standard sqlfunction rpad hibernate 
+register function substr standard sqlfunction substr hibernate 
+register function substrb standard sqlfunction substrb hibernate 
+register function translate standard sqlfunction translate hibernate 
+register function substr substre standard sqlfunction substr hibernate 
+register function locate sqlfunction template hibernate integer instr ?2 ?1 
+register function bite length sqlfunction template hibernate integer vsize ?1 8 
+register function coalesce nvl function 
+multi param date dialect function 
+register function add month standard sqlfunction add month hibernate date 
+register function month between standard sqlfunction month between hibernate 
+register function next day standard sqlfunction next day hibernate date 
+register function str standard sqlfunction to hibernate 
+multi param date dialect function 
+register function add month standard sqlfunction add month hibernate date 
+register function month between standard sqlfunction month between hibernate 
+register function next day standard sqlfunction next day hibernate date 
+register function str standard sqlfunction to hibernate 
+multi param numeric dialect function 
+register function atan2 standard sqlfunction atan2 hibernate 
+register function log standard sqlfunction log hibernate integer 
+register function mod standard sqlfunction mod hibernate integer 
+register function nvl standard sqlfunction nvl 
+register function nvl2 standard sqlfunction nvl2 
+register function power standard sqlfunction power hibernate 
+bite length feel bite break have cast char in order pas pass numeric value supply answer give will wildly different for datatype 1234 5678 will 9 byte char string will 8 16 byte true numeric jay nance 2006 09 22 
+register function bite length sqlfunction template hibernate integer octet length cast ?1 a as 4 
+map minute hour day month year ansi extract override subclass 
+register function second sqlfunction template hibernate integer extract second from ?1 
+register function minute sqlfunction template hibernate integer extract minute from ?1 
+register function hour sqlfunction template hibernate integer extract hour from ?1 
+register function day sqlfunction template hibernate integer extract day from ?1 
+register function month sqlfunction template hibernate integer extract month from ?1 
+register function year sqlfunction template hibernate integer extract year from ?1 
+register function str sqlfunction template hibernate cast ?1 a as 
+register hibernate type for default use in scalar sqlquery type auto detection 
+register hibernate type type bigint hibernate big integer get name 
+register hibernate type type binary hibernate binary get name 
+register hibernate type type bite hibernate get name 
+register hibernate type type hibernate character get name 
+register hibernate type type date hibernate date get name 
+register hibernate type type hibernate get name 
+register hibernate type type hibernate get name 
+register hibernate type type integer hibernate integer get name 
+register hibernate type type smallint hibernate get name 
+register hibernate type type tinyint hibernate get name 
+register hibernate type type time hibernate time get name 
+register hibernate type type timestamp hibernate timestamp get name 
+register hibernate type type varchar hibernate get name 
+register hibernate type type varbinary hibernate binary get name 
+register hibernate type type longvarchar hibernate text get name 
+register hibernate type type longvarbinary hibernate image get name 
+register hibernate type type numeric hibernate big decimal get name 
+register hibernate type type decimal hibernate big decimal get name 
+register hibernate type type blob hibernate blob get name 
+register hibernate type type clob hibernate clob get name 
+register hibernate type type real hibernate get name 
+register template loader suppose kick in late 
+post template loader template loader add all post template loader 
+template loader loader get aggregate template loader template loader 
+loader config set template loader loader 
+post process configuration config 
+config 
+query time result in session cache 
+criterion list 
+assert equal natural id cache hit 0 stat get natural id cache hit count 
+assert equal natural id cache miss 1 stat get natural id cache miss count 
+assert equal natural id cache put 2 stat get natural id cache put count 
+assert equal natural id cache query 1 stat get natural id query execution count 
+query time result cache in session 
+criterion list 
+assert equal natural id cache hit 0 stat get natural id cache hit count 
+assert equal natural id cache miss 1 stat get natural id cache miss count 
+assert equal natural id cache put 2 stat get natural id cache put count 
+assert equal natural id cache query 1 stat get natural id query execution count 
+call make first em definition win in thi case property 
+emf mc expect and mock emf create entity manager prop props em 
+em c expect and em get delegate object 2 
+em c expect and em be open 
+em close 
+emf mc replay 
+em c replay 
+persistence annotation bean post processor babpp mock persistence annotation bean post processor 
+persistence context field with property transactional field with property persistence context field with property 
+persistence context field transactional field persistence context field 
+babpp post process property value values transactional field with property 
+babpp post process property value values transactional field 
+assert not transactional field with property em 
+assert not transactional field em 
+cache thi stuff invocation give map user alia lock mode create new map sql alia lock mode 
+map alias aliase lock option hash map 
+map key column name names dialect update of column ? hash map 
+iterator iter lock option entry set iterator 
+iter ha next map entry me map entry iter next user alia me get key drive sql alia sql alia by entity alia get user alia drive sql alia illegal argument exception could not locate alia to apply lock mode user alia at point we have drive sql alia the sql alia of the drive table correspond to the give user alia however the drive table be not necessarily the table against which we want to apply lock mainly the exception here be join subclas hierarchy where we instead want to apply the lock against the root table all other strategy it just happen that drive and root be the same query node select query node query translator get sql ast lockable drive persister lockable select get from clause get from element user alia get queryable sql alia drive persister get root table alia drive sql alia alias aliase lock option put sql alia me get value key column name names key column name names put sql alia drive persister get root table identifier column name names 
+dialect apply lock to sql sql alias aliase lock option key column name names 
+thi call side effecty 
+object row get row result set persister key query parameter get optional object optional object key lock option array hydrate object session 
+read collection element elements row result set session 
+proxy now get an exist proxy each row element there be one i 0 i entity span i object entity row i object proxy session get persistence context proxy persister i key i entity entity proxy force the proxy to resolve itself hibernate proxy proxy get hibernate lazy initializer set implementation entity row i proxy 
+get result column or row row query parameter get result transformer result set session 
+next scroll entire result close 
+simple jta transaction manager impl get instance begin 
+s get session sessions get current session 
+result s create query from item scroll 
+result be last result next 
+result close 
+simple jta transaction manager impl get instance get transaction commit 
+simple jta transaction manager impl get instance begin 
+s get session sessions get current session 
+s create query delete from item execute update 
+simple jta transaction manager impl get instance get transaction commit 
+next scroll entire result close 
+simple jta transaction manager impl get instance begin 
+s get session sessions get current session 
+result s create query from item scroll 
+result be last result next 
+simple jta transaction manager impl get instance get transaction commit 
+scroll iterate cause batcher hold resource which make aggresive release not release connection cause serialization fail 
+scrollable result sr s create query from silly scroll 
+serialization helper serialize s fail serialization allow on connect session or aggressive release release connection with open resource illegal state exception e expect behavior 
+release connection 
+connection jdbcexception reporter log and clear warning connection toggle auto commit connection set auto commit provider close connection connection connection 
+generate explicit join for root dot node imply join will collect pass root dot node 
+dot resolve alia ? alia get text 
+from element from element dot get imply join 
+from element set all property fetch property fetch 
+with fetch semantic exception with clause not allow on fetch association use filter handle with fragment from element with 
+log be debug enable log debug create from join element get astprinter show a as from element join tree 
+check against require 
+require dialect require dialect ann locate annotation require dialect run method 
+require dialect ann ? dialect dialect require dialect ann value require dialect ann strict match dialect equal dialect get build skip dialect dialect be instance dialect build skip dialect 
+quick exit save performance avoid exception 
+match length from index from index 0 1 
+matcher matcher pattern matcher match 
+matcher region from index match length 
+matcher find matcher group count 0 index matcher start 
+index 
+check against dialect feature 
+require dialect feature require dialect feature ann locate annotation require dialect feature run method 
+require dialect feature ann ? dialect check check require dialect feature ann value dialect check check check instance skip check include dialect skip build skip dialect 
+next iterate entire result 
+simple jta transaction manager impl get instance begin 
+s get session sessions get current session 
+itr s create query from item iterate 
+itr ha next fail no result in iterator 
+itr ha next itr next 
+simple jta transaction manager impl get instance get transaction commit 
+simple jta transaction manager impl get instance begin 
+s open session 
+s create query delete from item execute update 
+simple jta transaction manager impl get instance get transaction commit 
+first test iterate partial iterator iterate past first not item 
+simple jta transaction manager impl get instance begin 
+s get session sessions get current session 
+iterator itr s create query from item iterate 
+itr ha next fail no result in iterator 
+itr next 
+itr ha next fail only one result in iterator 
+simple jta transaction manager impl get instance get transaction commit 
+next test partially scroll result close 
+simple jta transaction manager impl get instance begin 
+s get session sessions get current session 
+result s create query from item scroll 
+result next 
+result close 
+simple jta transaction manager impl get instance get transaction commit 
+first test partially scroll result close 
+simple jta transaction manager impl get instance begin 
+s get session sessions get current session 
+scrollable result result s create query from item scroll 
+result next 
+simple jta transaction manager impl get instance get transaction commit 
+next scroll entire result close 
+simple jta transaction manager impl get instance begin 
+s get session sessions get current session 
+result s create query from item scroll 
+result next noth nothe 
+result close 
+simple jta transaction manager impl get instance get transaction commit 
+simple jta transaction manager impl get instance begin 
+s get session sessions get current session 
+s create query delete from item execute update 
+simple jta transaction manager impl get instance get transaction commit 
+next scroll entire result close 
+simple jta transaction manager impl get instance begin 
+s get session sessions get current session 
+result s create query from item scroll 
+result next noth nothe 
+simple jta transaction manager impl get instance get transaction commit 
+method allow while invalid 
+close equal method name explicit close 
+error invalid 
+follow direction association 
+assert equal same employee e get name e get contact info get phone number numbers get 0 get employee iterator next get name 
+tx commit 
+s close 
+serialize session thi point 
+serialization helper serialize s 
+s delete silly 
+s flush 
+release s 
+do 
+write object thi interceptor user define 
+oo write object interceptor 
+factory serialize oo 
+root session jdbc context serialize oo 
+persistence context serialize oo 
+action queue serialize oo 
+essentially if have available connection in pool use 
+pool pool be empty last pool size 1 log be trace enable log trace use pool jdbc connection pool size last check out connection pool connection pool remove last isolation pool set transaction isolation isolation value pool get auto commit autocommit pool set auto commit autocommit pool 
+create customer steve in jbos 
+session session session factory with option tenant identifier jbos open session 
+session begin transaction 
+customer steve customer 1 l steve 
+session save steve 
+session get transaction commit 
+session close 
+create customer john in acme 
+session session factory with option tenant identifier acme open session 
+session begin transaction 
+customer john customer 1 l john 
+session save john 
+session get transaction commit 
+session close 
+session factory get statistic statistics implementor clear 
+let update nick which initialize nick parent not alternate parent 
+c1 set nick name nick name 
+assert load c1 nick name 
+assert load c1 parent 
+assert not load c1 alternate parent 
+assert equal hibernate c1 get parent get nombre 
+assert c1 get parent hibernate proxy 
+process column refresh end position because have insert new alia 
+end po shallow index of pattern sb from pattern start po 
+expression sb substr substre prev coma end po 
+select multiple column expression select multiple column alia get alia expression alia insert alia it be unlikely that we would have to add alia but just in end po shallow index of pattern sb pattern compile s from pattern insensitive start po alia helper generate alia page unique sb insert end po a as alia alias add alia 
+don hold jbc node lock tx prevent read update 
+transaction tx suspend 
+we ensure async semantic jbcache 1175 cache adapter with flag flag adapter force asynchronou put key value exception e cache exception e resume tx 
+give result init data 
+audit dynamic component entity entity audit dynamic component entity 1 l field value 
+entity get custom field fields put prop1 13 
+entity get custom field fields put prop2 0 1f 
+parent implementation for alias lock option ignore alias 
+equal alias lock mode lock mode lock option get lock mode iterator map entry lock mode itr lock option get alia lock iterator itr ha next seek the highest lock mode map entry lock mode entry itr next lock mode lm entry get value lm greater than lock mode alias entry get key 
+lock mode lock mode lock option get lock mode 
+lock mode upgrade get update alias pessimistic read get read lock alias lock option get time out pessimistic write get write lock alias lock option get time out upgrade nowait force pessimistic force increment get update nowait alias upgrade skiplock skiplocke get update skip lock alias 
+note foreign key create query table namespace for cross namespace fk hhh 10420 
+namespace namespace database get namespace table table namespace get table table information table information exist database get table information table get qualify table name table information table information be physical table apply foreign key table table information dialect metadata formatter option target 
+check version value in cache 
+second level cache statistic statistics slc session factory get statistic statistics get second level cache statistic statistics region prefix version versione item get name 
+assert that slc core matcher not value 
+map entry slc get entry 
+object entry entry get item get id 
+cache version value 
+entry soft lock fixme don t know what to test here cache version value read write cache lock entry get unlock timestamp cache version value map entry get version assert that initial version equal to cache version value 
+for reason antlr common ast initialization routine force thi method get call first time empty string 
+helper be not empty s constant expression s constant value reflect helper get constant value s factory get service registry get service loader service heuristic type factory get type resolver heuristic type constant value get get name set text s 
+verify parameter call start execution type method use perform preparation work 
+prepare query return necessary 
+verify parameter callable 
+no return query return query return be empty 
+no return auto discover type no return sqlquery query query return query sqlquery scalar sqlquery scalar scalar sqlquery scalar query scalar get type auto discover type 
+make sure use dialect 
+configuration set property environment dialect get dialect get get name 
+apply mapping configuration 
+configuration build mapping 
+apply cache setting configuration 
+setting after configuration build configuration create mapping get dialect 
+configuration configuration 
+service registry holder service registry holder get service registry property 
+session factory configuration build session factory service registry holder get service registry 
+setting after session factory build session factory implementor session factory 
+extra option locate in src test resource hibernate property 
+configuration cfg configuration 
+cfg set property environment dialect org hibernate dialect hsqldialect 
+cfg set property environment hbm2 ddl auto create drop 
+cfg set property environment datasource java my datasource 
+cfg set property environment jndi org jnp interface name context factory 
+cfg set property environment transaction manager strategy org hibernate transaction jbos transaction manager lookup 
+cfg set property environment transaction strategy org hibernate transaction jtatransaction factory 
+cfg set property environment current session context jta 
+cfg set property environment release connection auto 
+cfg set property environment use second level cache 
+cfg set property environment use query cache 
+cfg set property environment cache region factory org hibernate cache infinispan infinispan region factory 
+mapping org hibernate test cache infinispan functional item hbm xml 
+map mapping cfg add resource map thread current thread get context loader 
+cfg build mapping 
+iterator iter cfg get mapping 
+iter ha next persistent clazz persistent iter next cfg set cache concurrency strategy clazz get entity name transactional 
+iter cfg get collection mapping 
+iter ha next collection coll collection iter next cfg set collection cache concurrency strategy coll get role transactional 
+cfg build session factory service registry holder get service registry 
+xml 
+config annotation configuration 
+config add annotate customer5 
+config add annotate order 
+config add annotate country 
+config build session factory service registry holder get service registry fail map exception e log trace succes 
+let try totally different approach pull back scalar first explicit type 
+sql query add scalar orgid type instance add scalar name type instance add scalar empid type instance add scalar employee type instance add scalar start date timestamp type instance add scalar end date timestamp type instance add scalar region code type instance add scalar emp id type instance add scalar value type instance add scalar currency type instance 
+s get transaction commit 
+s close 
+s open session 
+s begin transaction 
+s delete emp 
+s delete jbos 
+s delete me 
+s get transaction commit 
+s close 
+try full explicit mapping 
+sql query add root org organization add property id orgid add property name add column alia name 
+sql query add fetch emp org employment add property key employer add property element empid add property element employee employee add property element employer employer add property element start date start date add property element end date end date add property element region code region code add property element employment id emp id add property element salary add column alia value add column alia currency 
+sql query list 
+thi work works for basic attribute type 
+hibernate type descriptor type descriptor attribute bind get hibernate type descriptor 
+type descriptor type descriptor get type name map exception hibernate type name ha not be define attribute get qualify attribute name attribute bind 
+type descriptor get type name property type parameter type descriptor get type parameter type parameter property type parameter put all type descriptor get type parameter type descriptor set explicit type metadata get type resolver heuristic type type descriptor get type name type parameter 
+in infinispan get doesn acquire lock suspend tx in past get operation operations acquire lock suspend tx way avoid hold lock prevent update add low timeout option don block wait for tx put commit 
+skip cache store get cache with flag flag skip cache store get key get cache get key 
+if infinispan use invalidation for query cache don propagate change use timestamp cache manage invalidation 
+local only cache be invalidation cache cache 
+evict cache local only ? cache local cache cache cache 
+put cache local only ? cache fail silent write cache cache flag cache mode local cache fail silent write cache cache 
+get cache cache fail silent read cache cache 
+finally construct adapter which inject attribute converter call into bind extraction process 
+sql type descriptor sql type descriptor adapter attribute converter sql type descriptor adapter attribute converter definition get attribute converter sql type descriptor intermediate java type descriptor 
+service registry bootstrap service registry standard service registry type 
+be expect service registry type service registry log debugf unexpect unexpecte service registry type s encounter dur dure build of metadata source may cause problem later attempt to construct metadata builder service registry get get name 
+service registry service registry 
+mapping binder map binder service registry get service loader service 
+thi seem overkill build sf necessary get integrator kick in metamodel will clean thi 
+session factory builder sf builder metadata get session factory builder populate sf builder standard service registry sf builder build jpa schema generator perform generation metadata configuration value values standard service registry exception e persistence exception unable to build hibernate session factory e 
+load into 2 session sessions 
+s1 open session 
+s1 get transaction begin 
+assert same my reference data s1 get my enhance reference data my reference data get id 
+assert same my other reference data s1 get my enhance reference data my other reference data get id 
+s2 open session 
+s2 get transaction begin 
+assert same my reference data s2 get my enhance reference data my reference data get id 
+assert same my other reference data s2 get my enhance reference data my other reference data get id 
+max lo 1 indicate hilo generator hilo ? 
+max lo 1 keep the behavior consistent even boundary usage integral data type holder value value value lt 0 value generate holder session value make value 
+lo max lo integral data type holder hi val generate holder session lo hi val eq 0 ? 1 0 value hi val copy multiply by max lo 1 add lo log be debug enable log debug hi value hi val 
+value make value then increment 
+register spatial analysi function section 2 1 1 3 
+register function distance spatial analysi function distance standard basic type spatial analysi distance 
+register function buffer spatial analysi function buffer geometry type instance spatial analysi buffer 
+register function convexhull spatial analysi function convexhull geometry type instance spatial analysi convexhull 
+register function difference spatial analysi function difference geometry type instance spatial analysi difference 
+register function intersection spatial analysi function intersection geometry type instance spatial analysi intersection 
+register function symdifference spatial analysi function symdifference geometry type instance spatial analysi symdifference 
+register function geomunion spatial analysi function union geometry type instance spatial analysi union 
+section 2 1 1 1 registerfunction call for register geometry function first argument ogc standard functionname function occur in spatial dialect 
+register function dimension sqlfunction template standard basic type integer ?1 stdimension 
+register function geometrytype sqlfunction template standard basic type ?1 stgeometry type 
+register function srid sqlfunction template standard basic type integer ?1 stsrid 
+register function envelope sqlfunction template geometry type instance ?1 stenvelope 
+register function astext sqlfunction template standard basic type ?1 sta text 
+register function asbinary sqlfunction template standard basic type binary ?1 sta binary 
+register function isempty sqlfunction template standard basic type ?1 sti empty 
+register function issimple sqlfunction template standard basic type ?1 sti simple 
+register function boundary sqlfunction template geometry type instance ?1 stboundary 
+section 2 1 9 1 method surface 
+register function area sqlfunction template standard basic type ?1 starea 
+register function centroid sqlfunction template geometry type instance ?1 stcentroid 
+register function pointonsurface sqlfunction template geometry type instance ?1 stpoint on surface 
+section 2 1 1 3 register spatial analysi function 
+register function distance sqlfunction template standard basic type ?1 stdistance ?2 
+register function buffer sqlfunction template geometry type instance ?1 stbuffer ?2 
+register function convexhull sqlfunction template geometry type instance ?1 stconvex hull 
+register function difference sqlfunction template geometry type instance ?1 stdifference ?2 
+register function intersection sqlfunction template geometry type instance ?1 stintersection ?2 
+register function symdifference sqlfunction template geometry type instance ?1 stsym difference ?2 
+register function geomunion sqlfunction template geometry type instance ?1 stunion ?2 
+detach collection get find found reattach reattache flush shouldn ignore 
+ignore 
+load key collection get key 
+set load persister factory get collection persister collection get role 
+snapshot collection get store snapshot 
+thi will match text provide column alia 
+matcher matcher alia pattern matcher expression 
+matcher find matcher group count 1 matcher group 1 ? matcher group 2 matcher group 3 
+collection entry reach stuff detect silly user set circular share reference between collection 
+ce be reach we ve be here before query hibernate exception find found share reference to a collection type get role 
+ce set reach 
+session factory implementor factory session get factory 
+collection persister persister factory get collection persister type get role 
+ce set current persister persister 
+collection initialize inside thi block do not get update ignore next flush 
+persistence context set flush 
+flush entity event flush collection session persistence context set flush 
+initialize dirty flag for array collection composite element elements reset reach doupdate 
+log debug dirty check collection 
+list list identity map entry session get persistence context get collection entry 
+size list size 
+i 0 i size i map entry e map entry list get i collection entry e get value pre flush persistent collection e get key 
+safe guard till confident metamodel wll test 
+disable equal ignore cfg get property hibernate ejb metamodel generation metamodel metamodel impl build metamodel class session factory implementor session factory metamodel 
+criterion builder criterion builder impl 
+util hibernate persistence unit util 
+hash map object prop props hash map object 
+add all prop props session factory implementor session factory get property 
+add all prop props cfg get property 
+property collection unmodifiable map prop props 
+option cache define for entity override for generic entity data type entity 
+p set property hibernate cache infinispan com acme person eviction strategy lru 
+p set property hibernate cache infinispan com acme person expiration lifespan 60000 
+p set property hibernate cache infinispan com acme person expiration max idle 30000 
+p set property hibernate cache infinispan entity cfg myentity cache 
+p set property hibernate cache infinispan entity eviction strategy fifo 
+p set property hibernate cache infinispan entity eviction wake up interval 3000 
+p set property hibernate cache infinispan entity eviction max entry 10000 
+infinispan region factory factory infinispan region factory 
+factory start p 
+embed cache manager manager factory get cache manager 
+manager get global configuration set transport 
+assert not factory get type override get person assert factory get define configuration contain person entity region impl region entity region impl factory build entity region person p assert not factory get type override get person assert factory get define configuration contain person cache adapter cache region get cache adapter configuration cache cfg cache get configuration assert equal eviction strategy lru cache cfg get eviction strategy assert equal 3000 cache cfg get eviction wake up interval assert equal 10000 cache cfg get eviction max entry assert equal 60000 cache cfg get expiration lifespan assert equal 30000 cache cfg get expiration max idle factory stop 
+if increment size greater than prefer pool optimization if user prefer pool pool lo 
+pool optimizer strategy configuration helper get environment prefer pool value values lo param ? optimizer factory pool lo optimizer factory pool 
+optimizer strategy increment size 1 ? optimizer factory none pool optimizer strategy 
+configuration helper get opt param param optimizer strategy 
+not find found in cache proceed 
+iterator entity identity map entry entity entry iterator 
+entity ha next map entry me map entry entity next entity entry ee entity entry me get value persister be subclas entity name ee get entity name object instance me get key object index get index in parent property child entity persister cp instance index merge map object unmerg unmerge instance merge map get instance object unmerg unmerge child merge map get child entity unmerg unmerge instance unmerg unmerge child index get index in parent property unmerg unmerge child persister cp unmerg unmerge instance index index 
+test historic sequence behavior initial value values start 1 
+source mock sequence source mock 1 
+optimizer optimizer optimizer factory build optimizer optimizer factory none 1 
+i 1 i 11 i next optimizer generate sequence assert equal i next value 
+assert equal 10 sequence get time times call 
+assert equal 10 sequence get current value 
+test historic sequence behavior initial value values start 1 
+source mock sequence source mock 1 
+optimizer optimizer optimizer factory build optimizer optimizer factory hilo increment 
+i 1 i increment i next optimizer generate sequence assert equal i next value 
+assert equal 1 sequence get time times call once to initialze state 
+assert equal 1 sequence get current value 
+test historic table behavior initial value values start 0 force 1 first id value 
+sequence source mock 0 
+optimizer optimizer factory build optimizer optimizer factory none 1 
+i 1 i 11 i next optimizer generate sequence assert equal i next value 
+assert equal 11 sequence get time times call an extra time to get to 1 initially 
+assert equal 10 sequence get current value 
+test historic sequence behavior initial value values start 1 
+source mock sequence source mock 1 10 
+optimizer optimizer optimizer factory build optimizer optimizer factory pool 10 
+i 1 i 11 i next optimizer generate sequence assert equal i next value 
+assert equal 2 sequence get time times call twice to initialize state 
+assert equal 11 sequence get current value 
+test historic table behavior initial value values start 0 force 1 first id value 
+sequence source mock 0 
+optimizer optimizer factory build optimizer optimizer factory hilo increment 
+i 1 i increment i next optimizer generate sequence assert equal i next value 
+assert equal 2 sequence get time times call here have have an extra call to get to 1 initially 
+assert equal 1 sequence get current value 
+optimizer start 1 
+optimizer optimizer optimizer factory build optimizer optimizer factory pool 3 1 
+assert equal 5 sequence get time times call 
+assert equal 1001 sequence get current value 
+next optimizer generate sequence 
+assert equal 1001 next value 
+assert equal 5 1 sequence get time times call 
+assert equal 1001 3 sequence get current value 
+next optimizer generate sequence 
+assert equal 1001 1 next value 
+assert equal 5 1 sequence get time times call 
+assert equal 1001 3 sequence get current value 
+next optimizer generate sequence 
+assert equal 1001 2 next value 
+assert equal 5 1 sequence get time times call 
+assert equal 1001 3 sequence get current value 
+optimizer start 1 
+optimizer optimizer optimizer factory build optimizer optimizer factory pool 3 1 
+assert equal 5 sequence get time times call 
+assert equal 1001 sequence get current value 
+next optimizer generate sequence 
+assert equal 1001 next value 
+assert equal 5 1 sequence get time times call 
+assert equal 1001 3 sequence get current value 
+next optimizer generate sequence 
+assert equal 1001 1 next value 
+assert equal 5 1 sequence get time times call 
+assert equal 1001 3 sequence get current value 
+next optimizer generate sequence 
+assert equal 1001 2 next value 
+assert equal 5 1 sequence get time times call 
+assert equal 1001 3 sequence get current value 
+app end start back lose 2 3 id value values 
+optimizer optimizer2 optimizer factory build optimizer optimizer factory pool lo 3 1 
+next optimizer2 generate sequence 
+assert equal 4 next value 
+assert equal 2 sequence get time times call 
+assert equal 4 sequence get current value 
+app end start back lose 2 3 id value values 
+optimizer optimizer2 optimizer factory build optimizer optimizer factory pool 3 1 
+next optimizer2 generate sequence 
+assert equal 4 next value 
+assert equal 3 sequence get time times call 
+assert equal 7 sequence get current value 
+fake in container work 
+hibernate entity manager em get session disconnect 
+stream array output stream 
+out object output stream stream 
+out write object em 
+out close 
+serialize stream to array 
+stream close 
+in array input stream serialize 
+in object input stream in 
+em entity manager in read object 
+in close 
+in close 
+first session factory us use cache 
+cache container local manager cluster aware region factory get cache manager dual node test local 
+local cache local manager get cache account get name 
+transaction manager local tm dual node jta transaction manager impl get instance dual node test local 
+session factory local factory session factory 
+cluster aware region factory get cache manager dual node test remote get cache account get name 
+transaction manager remote tm dual node jta transaction manager impl get instance dual node test remote 
+session factory remote factory second node environment get session factory 
+loader test dao dao0 loader test dao local factory local tm 
+loader test dao dao1 loader test dao remote factory remote tm 
+integer id integer 1 
+dao0 create account dao0 get smith id integer 5 dual node test local 
+upgrade optimistic force increment in tx1 
+em lock lock lock mode type optimistic force increment 
+lock set name surname don t end tx1 yet 
+count down latch latch count down latch 1 
+thread t thread runnable run em2 get transaction begin start tx2 lock lock2 em2 get reference lock id lock2 set name rename change entity em2 get transaction commit latch count down signal that tx2 be commit em2 close 
+t set daemon 
+t set name test upgrade read lock to optimistic force increment tx2 
+t start 
+log info test upgrade read lock to optimistic force increment wait on bg thread 
+latch set latch await 10 time unit second 
+assert background test thread finish lock timeout be break latch set 
+tx2 complete try commit tx1 
+em get transaction commit throwable expect to fail expect to fail expect to fail javax persistence optimistic lock exception expect to fail expect to fail get cause assert upgrade to optimistic force increment be expect to fail at end of transaction1 since tranaction2 already update the entity expect to fail javax persistence optimistic lock exception 
+em close 
+extra option locate in src test resource hibernate property 
+configuration cfg configuration 
+cfg set property environment dialect org hibernate dialect hsqldialect 
+cfg set property environment hbm2 ddl auto create drop 
+cfg set property environment datasource java my datasource 
+cfg set property environment jndi org jnp interface name context factory 
+cfg set property environment transaction manager strategy org hibernate transaction jbos transaction manager lookup 
+cfg set property environment transaction strategy org hibernate transaction jtatransaction factory 
+cfg set property environment current session context jta 
+cfg set property environment release connection auto 
+cfg set property environment use second level cache 
+cfg set property environment use query cache 
+cfg set property environment cache region factory org hibernate cache infinispan infinispan region factory 
+mapping org hibernate test cache infinispan functional item hbm xml 
+map mapping cfg add resource map thread current thread get context loader 
+cfg build mapping 
+iterator iter cfg get mapping 
+iter ha next persistent clazz persistent iter next cfg set cache concurrency strategy clazz get entity name transactional 
+iter cfg get collection mapping 
+iter ha next collection coll collection iter next cfg set collection cache concurrency strategy coll get role transactional 
+cfg build session factory service registry 
+if increment size greater than prefer pool optimization if user prefer pool pool lo 
+pool optimizer strategy configuration helper get environment prefer pool value values lo param ? optimizer factory pool lo optimizer factory pool 
+optimizer strategy increment size 1 ? optimizer factory none pool optimizer strategy 
+optimization strategy configuration helper get opt param param optimizer strategy 
+optimizer optimizer factory build optimizer optimization strategy identifier type get return increment size configuration helper get initial param param 1 
+apply pre insert in memory value generation 
+get entity metamodel ha pre insert generate value values in memory value generation strategy strategy get entity metamodel get in memory value generation strategy i 0 i strategy length i strategy i strategy i get generation time include insert field fields i strategy i get value generator generate value session session object set property value object i field fields i 
+span get table span 
+entity metamodel be dynamic insert the of dynamic insert we need to generate the insert sql not get property to insert field fields j 0 j span j insert id field fields not j generate insert not j object session the of dynamic insert use the sql j 0 j span j insert id field fields get property insertability j get sqlinsert string strings j object session 
+driver server do not parameter in select clause 
+value handler factory value handler handler value handler factory determine appropriate handler literal get 
+value handler factory be character literal handler render literal handler render literal 
+cascade current collection element elements 
+elem type be entity type elem type be any type elem type be component type cascade collection element elements child type style elem type anyth anythe persister be cascade delete enable 
+cascade to old cascade to 
+not sure usefulnes column transformer hf 
+list annotation instance column transformer annotation attribute annotation hibernate dot name names column transformer 
+column transformer annotation size 1 assertion failure there cannot be more than one column transformer annotation per map attribute 
+column transformer annotation size 1 annotation instance annotation instance all column transformer annotation get 0 value a as nest array all column transformer annotation add all array a as list annotation instance 
+list annotation instance column transformer annotation attribute annotation hibernate dot name names column transformer 
+column transformer annotation size 1 assertion failure there cannot be more than one column transformer annotation per map attribute 
+column transformer annotation size 1 all column transformer annotation add column transformer annotation get 0 
+all column transformer annotation 
+force new session ar 
+session factory 
+car car1 1 get audit reader find car id car1 2 
+car car2 get audit reader find car id car2 2 
+person owner car1 1 get owner owner get name owner get age 
+person owner car2 get owner owner get name owner get age 
+get audit reader be entity name not audit personaje person1 1 person get session get personaje id pers1 assert 
+person1 1 get name 
+person1 1 get age 
+force new session ar 
+session factory 
+car car1 get audit reader find car id car1 1 
+car1 get owner get name 
+car car2 get audit reader find car id car2 2 
+car2 get owner get name 
+get audit reader be entity name not audit personaje person person person get session get personaje id pers1 person get name it be not audit assert 
+look for feature file 
+feature file name format locale english hibernate osgi s karaf xml determine project version 
+url url file dir feature file name to uri to url 
+url reference override get url url to external form 
+option hold each else in turn 
+ast option get first child 
+option ast result option get type hql sql token type when result option get first child get next sibl sible option get type hql sql token type result option get first child query exception unexpect unexpecte node type astutil get token type name hql sql token type option get type expect when or sql node be instance result type node data type sql node result get data type node data type node data type option option get next sibl sible 
+query exception could not determine data type search statement 
+thi insert happen immediately 
+assert equal id not generate through force insertion 1 e get id 
+session delete e 
+session get transaction commit 
+session close 
+option hold each else in turn 
+ast option expression get next sibl sible 
+option ast result option get type hql sql token type when result option get first child get next sibl sible option get type hql sql token type result option get first child query exception unexpect unexpecte node type astutil get token type name hql sql token type option get type expect when or sql node be instance result type node data type sql node result get data type node data type node data type option option get next sibl sible 
+query exception could not determine data type simple statement 
+pas pass information 
+one to many be map by mapping add map by get collection type get name map by property name 
+xclas collection type get collection type 
+second pas pass sp get second pas pass fk join column join column inverse join column element column map key column map key many to many column be embed property collection type ignore not find found one to many table binder mapping 
+collection type be annotation present embeddable property be annotation present collection of element elements it right away otherwise many toon on composite element call add second pas pass and raise a concurrent modification exception sp second pas pass collection helper empty map mapping add second pas pass sp be map by mapping add second pas pass sp be map by 
+mapping add collection collection 
+embeddable element elements have type def 
+bind type def return or element build context 
+property container prop container property container return or element x process 
+add element elements of element elements property accessor prop container build context 
+property holder owner component property start component 
+property holder start property infer data get property 
+xclas x process infer data get property 
+list property data element elements array list property data 
+xclas return or element infer data get or element 
+list property data base element elements 
+map property data order base element elements hash map property data 
+xclas base return or element 
+base infer data base element elements array list property data base return or element base infer data get or element bind type def base return or element build context property container prop container property container base return or element x process add element elements of base element elements property accessor prop container build context property data element base element elements order base element elements put element get property name element 
+todo implement initialize final field fields null make compiler happy 
+subquery 
+table name 
+subclas closure 
+space 
+subclas space 
+discriminator sqlvalue 
+constraint order table name names 
+constraint order key column name names 
+connect task in task dependency graph 
+configuration config enhance task get project get configuration get by name java plugin compile configuration name 
+task class task project get task get by name java plugin class task name 
+enhance task depend on class task 
+enhance task must run after happen before enhance task name 
+task jar task project get task get by name happen after enhance task name 
+jar task depend on enhance task 
+ha local transaction hibernate facade responsibility drive transaction inflow? 
+current hibernate transaction be initiator 
+transaction context should auto join transaction current hibernate transaction get join statu join statu mark join log be debug enable log debug skip jta sync registration due to auto join check 
+resister synchronization 
+transaction factory be joinable jta transaction current hibernate transaction log be trace enable log trace transaction factory report no jta transaction to join skip synchronization registration 
+jta platform register synchronization register synchronization get synchronization callback coordinator 
+synchronization register 
+log be debug enable log debug successfully register synchronization 
+resister synchronization 
+jta platform can register synchronization log be trace enable log trace register jta platform say we cannot currently resister synchronization skip 
+check entry in reflog turn write reflog 
+assert db get reflog reader constant head 
+db get config set core logallrefupdate 
+do not use defalt repo for thi case 
+map ref all ref db get all ref 
+object id old value db resolve head 
+db write symref constant head ref head newref 
+ref update update ref db update ref constant head 
+update ref set force update 
+update ref set object id old value 
+result update update ref update 
+assert equal result update 
+all ref db get all ref 
+assert equal ref head newref all ref get head get name 
+assert equal head all ref get head get orig name 
+assert equal ref head newref all ref get ref head newref get name 
+assert equal ref head newref all ref get ref head newref get orig name 
+use in different commit than hide 
+test repository s test repository src 
+rev commit n s commit parent b add q b create 
+s update r master n 
+fill dst common history 
+test repository d test repository dst 
+a d blob a 
+a d commit d tree d file a a 
+b d commit parent a create 
+d update r master b 
+create new commit remote 
+b test repository remote repository branch master 
+rev commit z b commit message z create 
+create new commit remote 
+b test repository remote repository branch master 
+rev commit z b commit message z create 
+file in index longer in head in index 
+file in index path index file get absolute path 
+assert in head file in index path 
+assert in index index file get name 
+assert reflog prev head head 
+file in index longer in head in index 
+file in index path index file get absolute path 
+assert in head file in index path 
+assert in index index file get name 
+assert reflog prev head head 
+file in index longer in head ha in index 
+file in index path index file get absolute path 
+assert in head file in index path 
+assert in index index file get name 
+assert reflog prev head head 
+change line in topic branch 
+write trash file file1 1 n2 n3 ntopic n 
+git add add filepattern file1 call 
+git commit set message change file1 in topic call 
+rebase result re res git rebase set upstream ref head master call 
+assert equal statu ok re res get statu 
+check file the file 1master n2 n3 ntopic n 
+old branch check 
+assert equal ref head topic db get full branch 
+assert equal last master change rev walk db parse commit db resolve constant head get parent 0 
+if object in repository remove temporary file 
+unpack object cache be unpack id file util delete tmp file util retry insert loose object result exist loose 
+create duplicate ha id file util delete tmp file util retry insert loose object result exist pack 
+file dst file id 
+f exist dst we want to be extra careful and avoid replace an object that already exist we can t be sure rename to would fail on all platform dst exist so we check first file util delete tmp file util retry insert loose object result exist loose 
+tmp rename to dst dst set read only unpack object cache add id insert loose object result insert 
+iterate dircache collect time stamp 
+0 include option mod time time stamp tree set i 0 i dc get entry count i time stamp add value of dc get entry i get last modify 
+checkout remote track branch in repository local branch exist in repository 
+git2 checkout set name remote origin test call 
+assert equal test txt mode 100644 content some change index state db2 content 
+iterate dircache collect time stamp 
+0 include option mod time time stamp tree set i 0 i dc get entry count i time stamp add value of dc get entry i get last modify 
+do gc check hasn change anyth anythe 
+gc gc 
+stat gc get statistic statistics 
+assert equal 0 stat number of loose object 
+assert equal 4 stat number of pack object 
+assert equal 1 stat number of pack file 
+suppose do 
+dc git add add filepattern a txt call 
+assert equal a txt mode 100644 sha1 6b584e8ece562ebffc15d38808cd6b98fc3d97ea index state content id 
+do not rely filemode difference in case symbolic link links 
+file mode symlink equal raw mode 
+suppose do 
+dc git add add filepattern a txt call 
+assert equal a txt mode 100644 sha1 6b584e8ece562ebffc15d38808cd6b98fc3d97ea index state content id 
+change in txt stag stage deletion txt not stag stage txt stag stage 
+assert equal sub a txt mode 100644 sha1 268af4e306cfcf6e79edd50fed9c553d211f68e3 sub b txt mode 100644 sha1 50e9cdb03f9719261dd39d7f2920b906db3711a3 sub c txt mode 100644 sha1 fa08654474ae2ddc4f61ee3a43d017ba65a439c3 index state content id 
+change in txt stag stage 
+assert equal sub a txt mode 100644 sha1 268af4e306cfcf6e79edd50fed9c553d211f68e3 index state content id 
+iterate produce result string 
+name conflict tree walk tw name conflict tree walk db 
+tw set recursive 
+tw reset 
+tw add tree dir cache iterator dc 
+tw next dir cache iterator dc it tw get tree 0 dir cache iterator sb append tw get path mode dc it get entry file mode stage dc it get dir cache entry get stage stage 0 sb append stage stage 0 include option mod time sb append time t time stamp head set value of dc it get dir cache entry get last modify size 0 include option smudge dc it get dir cache entry be smudge sb append smudge 0 include option length sb append length integer to dc it get dir cache entry get length 0 include option content id sb append sha1 object id to dc it get entry object id sb append 
+sb to 
+although racily clean not report dirty 
+assert equal a mode 100644 time t1 smudge length 0 b mode 100644 time t0 length 1 index state smudge mod time length 
+verify storage pack delta 
+object directory od object directory src get object database 
+assert ha b od ha object b 
+assert b not loose od file b exist 
+try use blob hide 
+test repository s test repository src 
+rev commit n s commit parent b add q s blob b create 
+try use blob not server 
+test repository s test repository src 
+rev blob n s blob n 
+rev commit n s commit parent b add q n create 
+set log ref update parameter true check 
+db get config set core logallrefupdate 
+assert db get config get core be log all ref update 
+set log ref update parameter false check 
+db get config set core logallrefupdate 
+assert db get config get core be log all ref update 
+parse rule in reverse order read 
+i rule size 1 i 1 i match rule get i be match tar target file be directory match 
+i 1 rule get i rule get i get result 
+get hash id from data use echo git hash object blob stdin 
+tree add file a b set id object id from f6f28df96c2b40c951164286e08be7c38ec74851 
+tree add file a c set id object id from 6bc0e647512d2a0bef4f26111e484dc87df7f5ca 
+tree add file a c set id object id from 06022365ddbd7fb126761319633bf73517770714 
+tree add file a d set id object id from fa6414df3da87840700e9eeb7fc261dd77ccd5c2 
+tree set id object writer db write tree tree 
+index diff diff index diff tree index 
+diff diff 
+assert equal 0 diff get change size 
+assert equal 0 diff get add size 
+assert equal 0 diff get remove size 
+assert equal 0 diff get miss size 
+assert equal 0 diff get modify size 
+get hash id from data use echo git hash object blob stdin 
+tree add file a b set id object id from f6f28df96c2b40c951164286e08be7c38ec74851 
+tree add file a c set id object id from 6bc0e647512d2a0bef4f26111e484dc87df7f5ca 
+tree add file a b b b set id object id from 8d840bd4e2f3a48ff417c8e927d94996849933fd 
+tree add file a b set id object id from db89c972fc57862eae378f45b74aca228037d415 
+tree add file a c set id object id from 52ad142a008aeb39694bafff8e8f1be75ed7f007 
+tree add file a c set id object id from 06022365ddbd7fb126761319633bf73517770714 
+tree add file a d set id object id from fa6414df3da87840700e9eeb7fc261dd77ccd5c2 
+tree tree3 tree tree find tree member a b b 
+tree3 set id object writer db write tree tree3 
+tree tree2 tree tree find tree member a 
+tree2 set id object writer db write tree tree2 
+tree set id object writer db write tree tree 
+index diff diff index diff tree index 
+diff diff 
+assert equal 0 diff get change size 
+assert equal 0 diff get add size 
+assert equal 0 diff get remove size 
+assert equal 0 diff get miss size 
+assert equal 0 diff get modify size 
+filter null not valid tree entry cache encode form path name names for efficient use sort iteration 
+entry list 
+i o 
+i 0 o 0 i entry length i entry e entry i e name e get name equal name equal name constant dot git equal name i o entry o e e encode name name encoder o 
+entry cnt o 
+array sort entry 0 entry cnt entry cmp 
+content id from ptr 1 
+ptr 0 
+eof parse entry 
+memory map control gc thi good time clean unlock memory map file 
+use mmap system gc 
+tmp recursive delete tmp 
+tmp tmp exist cleanup thread remove tmp 
+parse rule in reverse order read 
+i rule size 1 i 1 i match rule get i be match tar target file be directory match 
+i 1 rule get i rule get i get result 
+construct data source for report 
+value stack stack invocation get stack 
+value stack data source stack data source 
+connection conn connection stack find value connection 
+conn stack data source value stack data source stack data source 
+servlet context servlet context servlet context invocation get invocation context get servlet action context servlet context 
+system id servlet context get real path location 
+map parameter value stack shadow map stack 
+file directory file system id substr substre 0 system id last index of file separator 
+parameter put report directory directory 
+parameter put jrparameter report locale invocation get invocation context get locale 
+do return date result 
+cherry pick list be empty rebase result up to date result 
+collection reverse cherry pick list 
+filter null not valid tree entry cache encode form path name names for efficient use sort iteration 
+entry list 
+i o 
+i 0 o 0 i entry length i entry e entry i e name e get name equal name equal name git equal name i o entry o e e encode name name encoder o 
+entry cnt o 
+array sort entry 0 entry cnt entry cmp 
+content id from ptr 1 
+ptr 0 
+eof parse entry 
+parse rule in reverse order read 
+i rule size 1 i 1 i ignore rule rule rule get i rule be match entry path be directory rule get result match result ignore match result not ignore 
+match result check parent 
+filter null not valid tree entry cache encode form path name names for efficient use sort iteration 
+entry list 
+i o 
+charset encoder name encoder state name encoder 
+i 0 o 0 i entry length i entry e entry i e name e get name equal name equal name non nl 1 non nl 2 constant dot git equal name constant dot git ignore equal name ignore node per directory ignore node e i o entry o e e encode name name encoder o 
+entry cnt o 
+array sort entry 0 entry cnt entry cmp 
+content id from ptr 1 
+ptr 0 
+eof parse entry 
+if set core worktree win 
+path cfg get config core section config key worktree 
+path safe f resolve get git dir path 
+ignore unreachable garbage object 
+db ha id id 
+offset begin object type len 
+pack out compress write data off len 
+pack out compress finish 
+end object id offset 
+write individual file entry 
+snapshot write a index a as no entry require smudge i 0 i entry cnt i sort entry i write do dos smudge s snapshot last modify 1000 smudge n snapshot last modify 1000 1000000 i 0 i entry cnt i dir cache entry e sort entry i e may be racily clean smudge s smudge n e smudge racily clean e write do dos 
+tree temporary buffer bb temporary buffer local file tree write tmp bb bb close nb encode int32 tmp 0 ext tree nb encode int32 tmp 4 bb length do dos write tmp 0 8 bb write to do dos 
+o os write foot digest 
+o os close 
+change 
+empty commit jgit internal exception jgit text get empty commit 
+dc editor commit 
+misuse single propertyobject first testclas find found collection 
+single single single trivial hack to test property with array get stuff get several to array get several size 
+list l array list 
+l add simple 1 
+l add slimeball 
+single set several l 
+q s create query from simple s where s name in several 
+q set property single 
+assert q list get 0 simple 
+q s create query from simple s where s name in stuff 
+q set property single 
+assert q list get 0 simple 
+s delete simple 
+t commit 
+s close 
+first modify column in middle join table allow null value values hbm2ddl doesn seem allow thi 
+em get transaction begin 
+session session session em get delegate 
+session create sqlquery drop table child execute update 
+session create sqlquery create table child parent id integer child1 id integer child2 id integer execute update 
+session create sqlquery drop table child aud execute update 
+session create sqlquery create table child aud rev integer not revend integer revtype get dialect oracle8i dialect ? number 3 0 get dialect postgre sql82 dialect ? smallint tinyint parent id integer child1 id integer child2 id integer execute update 
+em get transaction commit 
+em clear 
+parent entity p1 parent entity parent 1 
+parent entity p2 parent entity parent 2 
+child1 entity c1 1 child1 entity child1 1 
+child1 entity c1 2 child1 entity child1 2 
+child2 entity c2 1 child2 entity child2 1 
+child2 entity c2 2 child2 entity child2 2 
+if role ha explicit fetch in query skip in graph 
+map from element explicit fetch hash map from element 
+object o from clause get from element elements from element from element from element o from element get role explicit fetch put from element get role from element 
+get from element elements from clause get level from clause root level ? origin entity graph get attribute node collection empty list from clause get from element from clause walker explicit fetch 
+thi test assume replication verify correct 
+assert equal cache be repl sync repl sync remote cache get configuration get cache mode 
+jchannel factory channel factory jchannel factory 
+channel factory set multiplexer config share cache instance manager def multiplexer resource 
+remote cache get configuration get runtime config set mux channel factory channel factory 
+remote cache start 
+go ahead set lazy pojo proxy override 
+persistent set lazy lazy 
+entity name node attribute value entity name 
+entity name entity name get name node attribute name mapping 
+entity name map exception unable to determine entity name 
+persistent set entity name entity name 
+persistent set jpa entity name entity name 
+bind pojo representation node persistent mapping inherit meta 
+bind dom4j representation node persistent mapping inherit meta 
+bind map representation node persistent mapping inherit meta 
+iterator itr node element iterator fetch profile 
+itr ha next element profile element element itr next parse fetch profile profile element mapping entity name 
+bind persistent common value values node persistent mapping inherit meta 
+add map superclas in metadata class from 0 1 map superclas link 
+org hibernate map map superclas map superclas 
+inheritance state entity state inheritance state get entity inheritance state annotate inheritance state per reflection manager 
+persistent entity entity state ? mapping get entity state clazz get name 
+last map superclas class to process size 1 
+index 0 index last map superclas index org hibernate map map superclas parent superclas map superclas ? type mapping get reflection manager to class to process get index add map superclas not already there map superclas mapping get map superclas type map superclas map superclas org hibernate map map superclas parent superclas entity map superclas set map type mapping add map superclas type map superclas 
+map superclas persistent set map superclas map superclas 
+class to process 
+order allow proper message property subclass subclasse 
+list xclas class to process array list xclas 
+xclas current in hierarchy annotate 
+inheritance state superclas state 
+reflection manager reflection manager mapping get reflection manager 
+class to process add 0 current in hierarchy xclas current in hierarchy get superclas superclas state inheritance state per get reflection manager equal object superclas state current in hierarchy superclas state superclas state be embeddable superclas 
